@@ -1,45 +1,3 @@
-/* Corpo principal */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
-body {
-    background-color: #fff;
-}
-
-/* Navegação */
-nav > img {
-    width: 10%;
-}
-nav{
-    padding: 0 20px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(19 34 53);
-}
-ul {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-li {
-    width: 15%;
-    margin: 0 15px;
-}
-a{
-    font-size: 18px;
-    text-decoration: none;
-    color: #fff;
-}
-a:hover{
-    color: rgb(168, 166, 166);
-}
-
 /* Header */
 header {
     width: 100%;
@@ -67,27 +25,113 @@ span {
     color: #fff;
 }
 
+/* Texto sobre o site */
 .dados {
-    width: 55%;
+    width: 80%;
     margin: 20px 50px;
-
+    padding: 20px;
+    border: rgb(19 34 53) solid 2px;
+    background-color: rgb(56, 100, 156);
 }
+.dados h2 {
+    margin: 20px 0;
+}
+
+/* Dados dos apartamentos */
 .apartamentos {
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 30px;
 }
-
 .app {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 8px 20px;
+    border: rgb(19 34 53) solid 2px;
+}
+.app img {
+    width: 20%;
+}
+.container {
+    width: 40%;
+    margin: 5px 20px;
+}
+.container img {
+    width: 68%;
+    margin: 2px 0;
+}
+
+.container h2,h3 {
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(19 34 53);
+    color: white;
+    transition: 0.2s;
 }
 
 
+/* Responsividade */
+@media screen and (max-width: 768px){
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+    #perfil {
+        align-items: center;
+        width: 80%;
+        opacity: 0.9;
+        margin-left: 0;
+    }
+    .infoSite {
+        font-size: 18px;
+        width: 80%;
+    }
+    .dados {
+        margin: 20px 40px;
+        padding: 20px;
+    }
 
-footer {
+    /* Dados dos apartamentos */
+    .apartamentos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    .app {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 8px 20px;
+        border: rgb(19 34 53) solid 2px;
+    }
+    .app img {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        margin: 2px;
+        padding: 10px;
+    }
+
+    /* Footer */
 
 }
