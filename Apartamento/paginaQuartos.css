@@ -1,0 +1,93 @@
+/* Corpo principal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    background-color: #fff;
+}
+
+/* Navegação */
+nav > img {
+    width: 10%;
+}
+nav{
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(19 34 53);
+}
+ul {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    width: 15%;
+    margin: 0 15px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: rgb(168, 166, 166);
+}
+
+/* Header */
+header {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#perfil {
+    width: 45%;
+    opacity: 0.9;
+    margin-left: 12px;
+}
+.infoSite {
+    font-size: 28px;
+    font-weight: 300;
+    width: 45%;
+    text-align: center;
+}
+.infoSite > img {
+    width: 40%;
+    margin: 50px;
+}
+span {
+    background-color: rgb(19 34 53);
+    color: #fff;
+}
+
+.dados {
+    width: 55%;
+    margin: 20px 50px;
+
+}
+.apartamentos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+footer {
+
+}
