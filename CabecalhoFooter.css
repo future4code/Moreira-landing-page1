@@ -12,7 +12,9 @@ body {
 /* Navegação */
 nav > img {
     width: 10%;
+    margin-left: 60px;
 }
+
 nav{
     padding: 0 20px;
     width: 100%;
@@ -20,6 +22,8 @@ nav{
     flex-wrap: wrap;
     background-color: rgb(19 34 53);
 }
+
+
 ul {
     width: 70%;
     display: flex;
@@ -27,6 +31,7 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
 li {
     text-align: center;
     width: 15%;
@@ -42,45 +47,72 @@ a:hover{
 }
 
 /* Footer */
+
+
+#logo{
+    margin-left: 13%;
+}
+
+.logoredes{
+    margin-left: 60%;
+}
+
+
+footer h2{
+    margin-left: 610px;
+    color: white;
+    margin-top: -190px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 52%;
+}
+
+footer h3{
+    color: white;
+    width: 300px;
+    margin-left: 610px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 32%;
+}
+
+.endereço{
+    border-bottom: white 2px solid;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 32%;
+}
+
+.telefone{
+    color: white;
+    margin-top: 10px;
+    border-bottom: white 2px solid;
+    width: 300px;
+    margin-left: 32%;
+}
+
+.rsocias{
+    margin-left: 60%;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin-left: 60%;
+}
+
+.redesS1, .redesS2, .redesS3{
+    width: 32px;
+    height: 32px;
+    padding-bottom: 10px;
+   
+} 
+
 footer{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(19 34 53);
+    height: 180px;
+    background-color: rgb(19 34 53); 
     position: relative;
     bottom: 0px;
-    width: 100%;
-    justify-content: center;
-}
-.redesS1, .redesS2, .redesS3{
-    width: 40px;
-    height: 40px;
-}
-.information {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-    margin: 15px;
-}
-footer h2{
-    border-bottom: rgb(189, 182, 182) solid 2px;
-    border-top: rgb(189, 182, 182) solid 2px;;
-    color: rgb(189, 182, 182);
-}
-.telefone, footer h3{
-    color: rgb(189, 182, 182);
-}
-.redes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.rsocias{
-    margin: 10px;
-}
-footer > img {
-    width: 20%;
+    width: 100vw;
+    overflow-y: hidden;
+    
 }
 
 @media screen and (max-width: 768px){
@@ -93,6 +125,7 @@ footer > img {
         padding: 10px;
     }
 
+    
     li {
         text-align: left;
         align-items: center;
@@ -102,37 +135,245 @@ footer > img {
         width: 100%;
     }
 
-    /* FOOTER */
-    footer > img {
-        display: none;
+    /* Footer */
+
+     .logoredes{
+        margin-left: 65%;
     }
-    .redes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 40%;
-        justify-content: right;
+    
+    #logo{
+        width: 0px;
     }
+    
+    footer h2{
+        margin-left: 610px;
+        color: white;
+        margin-top: -190px;
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: 17%;
+    }
+    
+    footer h3{
+        color: white;
+        width: 300px;
+        margin-left: 610px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-left: 17%;
+    }
+    
+    .endereço{
+        border-bottom: white 2px solid;
+        width: 300px;
+        margin-bottom: 10px;
+        margin-left: 17%;
+    }
+    
+    .telefone{
+        color: white;
+        margin-top: 10px;
+        border-bottom: white 2px solid;
+        width: 300px;
+        margin-left: 17%;
+    }
+    
+    .rsocias{
+        padding-top: 50px;
+        padding-bottom: 15px;
+        margin-left: 65%;
+    }
+
+    .redesS1, .redesS2, .redesS3{
+        width: 32px;
+        height: 32px;
+        padding-bottom: 10px;
+       
+    } 
+
     footer{
+        height: 180px;
+        background-color: rgb(19 34 53); 
+        position: relative;
+        bottom: 0px;
+        width: 100vw;
+        overflow-y: hidden;
+        
+    }
+   
+     
+
+}
+
+@media screen and (min-width: 1920px){
+    body {
+        max-width: 1920px;
+        width: 100%;
+    }
+
+    nav{
+        padding: 0 20px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         background-color: rgb(19 34 53);
+        height: 120px;
+        overflow-y: hidden;
+    }
+    
+    nav img{
+        margin-top: -35px;
+        margin-left: 50px;
+    }
+    
+    ul {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: -35px;
+    }
+
+    .logoredes{
+        margin-left: 60%;
+    }
+    
+    
+    footer h2{
+        margin-left: 610px;
+        color: white;
+        margin-top: -190px;
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: 37%;
+    }
+    
+    footer h3{
+        color: white;
+        width: 300px;
+        margin-left: 610px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-left: 37%;
+    }
+    
+    .endereço{
+        border-bottom: white 2px solid;
+        width: 300px;
+        margin-bottom: 10px;
+        margin-left: 37%;
+    }
+    
+    .telefone{
+        color: white;
+        margin-top: 10px;
+        border-bottom: white 2px solid;
+        width: 300px;
+        margin-left: 37%;
+    }
+    
+    .rsocias{
+        margin-left: 60%;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        margin-left: 60%;
+    }
+
+    .redesS1, .redesS2, .redesS3{
+        width: 32px;
+        height: 32px;
+        padding-bottom: 10px;
+       
+    } 
+
+    footer{
+        height: 180px;
+        background-color: rgb(19 34 53); 
         position: relative;
         bottom: 0px;
-        width: 100%;
-        padding-bottom: 100px;
-        padding-top: 20px;
-        justify-content: left;
+        width: 100vw;
+        overflow-y: hidden;
+        
     }
+}
+
+@media screen and (max-width: 375px){
+
+    footer h2{
+        margin-left: 610px;
+        color: white;
+        margin-top: -200px;
+        padding-top: 10px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    
+    footer h3{
+        color: white;
+        width: 150px;
+        margin-left: 610px;
+        margin-top: 10px;
+        font-size: 10px;
+        margin-left: 30%;
+    }
+    
+    .endereço{
+        border-bottom: white 2px solid;
+        width: 150px;
+        margin-bottom: 10px;
+        margin-left: 30%;
+        font-size: 15px;
+    }
+    
+    .telefone{
+        color: white;
+        margin-top: 10px;
+        border-bottom: white 2px solid;
+        width: 150px;
+        margin-left: 30%;
+        font-size: 15px;
+    }
+    
+    .rsocias{
+        margin-left: 30%;
+        padding-top: 210px;
+        padding-bottom: 15px;
+    }
+
     .redesS1, .redesS2, .redesS3{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
+        padding-bottom: 5px;
+    } 
+
+    .redesS1{
+        margin-left: -130px;
     }
-    .information {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 40%;
-        margin: 15px;
+
+    .redesS2{
+        margin-left: -130px;
+    }
+
+    .redesS3{
+        margin-left: -130px;
+    }
+
+    footer{
+        height: 370px;
+        background-color: rgb(19 34 53); 
+        position: relative;
+        bottom: 0px;
+        width: 100vw;
+        overflow-y: hidden;
+        
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+    body {
+        max-width: 1400px;
+        width: 100%;
     }
 }
