@@ -1,0 +1,29 @@
+*{
+ margin: o;
+ padding: 0;
+}
+
+#containet-1{  
+
+     font-size: 60px;
+    color: rgb(12, 12, 12);
+    
+    
+
+    
+}
+.faixada-do-site{
+    width: 50%;
+    display: flex;
+    justify-content: space-between; 
+    display: inline;
+    
+    
+    
+    
+    
+    
+
+
+
+}
