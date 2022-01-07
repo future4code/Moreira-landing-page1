@@ -7,21 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F4Life | Moradias Univesitárias</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="CabecalhoFooter.css">
     <link rel="icon" href="./img/logo.png">
 
 </head>
 
 <body>
-    <header>
+    <nav class="nav">
+        <img src="../imgs/f4life.png" alt="logo">
+        <ul class="containerLink">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="../Apartamento/paginaQuartos.html">Apartamento</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Localização</a></li>
+        </ul>
+    </nav>
 
-        <nav class="botoes" role="button">
-            <button> Home </button>
-            <button> Sobre </button>
-            <button>Apartamento</button>
-            <button>FAQ</button>
-            <button>Localização</button>
-        </nav>
-    </header>
     <main>
         <div class="imgfundo">
             <h1>
@@ -178,41 +180,21 @@
         </div>
     </main>
     <footer>
-        <img id="logo" src="img/logo.png" alt="logomarca">
-
-
-        <h2 class="endereço">
-            Endereço:
-
-        </h2>
-        <h3>
-            Av. Antônio Abrahão Caram, 820 - São José, Belo Horizonte - MG, 31275-000
-        </h3>
-        <h2 class="telefone">
-            Telefone:
-
-        </h2>
-        <h3>
-            (99) 9999-9999
-        </h3>
-
-
-        <h2 class="rsocias">
-            Siga as nossas redes sociais:
-        </h2>
-        <div>
-            <a class="logoredes" href="https://www.facebook.com/" target="_blank"><img class="redesS1"
-                    src="img/facebook.png" alt="facebook"></a>
+        <img src="../imgs/f4life.png" alt="logomarca">
+        <div class="information">
+            <h2 class="endereco">Endereço:</h2>
+            <h3>Av. Antônio Abrahão Caram, 820 - São José, Belo Horizonte - MG, 31275-000</h3>
+            <h2 class="telefone">Telefone:</h2>
+            <h3>(99) 9999-9999</h3>
         </div>
-        <div>
-            <a class="logoredes" href="https://www.instagram.com/" target="_blank"><img class="redesS2"
-                    src="img/instagram.png" alt="instagram"></a>
+        <div class="redes">
+        <h2 class="rsocias">Siga as nossas redes sociais:</h2>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank"><img class="redesS1" src="../imgs/facebook.png" alt="facebook"></a></div>
+                <a href="https://www.instagram.com/" target="_blank"><img class="redesS2" src="../imgs/instagram.png" alt="instagram"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img class="redesS3" src="../imgs/whatsapp.png" alt="whastapp"></a>
+            </div>
         </div>
-        <div>
-            <a class="logoredes" href="https://web.whatsapp.com/" target="_blank"><img class="redesS3"
-                    src="img/whatsapp.png" alt="whastapp"></a>
-        </div>
-
     </footer>
 </body>
 
