@@ -110,7 +110,7 @@ footer > img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 40%;
         justify-content: right;
     }
     footer{
@@ -120,6 +120,8 @@ footer > img {
         position: relative;
         bottom: 0px;
         width: 100%;
+        padding-bottom: 100px;
+        padding-top: 20px;
         justify-content: left;
     }
     .redesS1, .redesS2, .redesS3{
