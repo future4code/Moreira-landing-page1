@@ -1,0 +1,138 @@
+/* Corpo principal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    max-width: 1280px;
+    background-color: #fff;
+}
+/* Navegação */
+nav > img {
+    width: 10%;
+}
+nav{
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(19 34 53);
+}
+ul {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    text-align: center;
+    width: 15%;
+    margin: 0 15px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: rgb(168, 166, 166);
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(19 34 53);
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    justify-content: center;
+}
+.redesS1, .redesS2, .redesS3{
+    width: 40px;
+    height: 40px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 15px;
+}
+footer h2{
+    border-bottom: rgb(189, 182, 182) solid 2px;
+    border-top: rgb(189, 182, 182) solid 2px;;
+    color: rgb(189, 182, 182);
+}
+.telefone, footer h3{
+    color: rgb(189, 182, 182);
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rsocias{
+    margin: 10px;
+}
+footer > img {
+    width: 20%;
+}
+
+@media screen and (max-width: 768px){
+    /* Navegação */
+    nav > img {
+        display: none;
+    }
+    nav{
+        justify-content: center;
+        padding: 10px;
+    }
+
+    li {
+        text-align: left;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer > img {
+        display: none;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        justify-content: right;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(19 34 53);
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        padding-bottom: 100px;
+        padding-top: 20px;
+        justify-content: left;
+    }
+    .redesS1, .redesS2, .redesS3{
+        width: 30px;
+        height: 30px;
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        margin: 15px;
+    }
+}
