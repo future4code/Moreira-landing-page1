@@ -2,35 +2,57 @@
     margin: 0;
     padding: 0;
 }
-
-
-
+body {
+    background-color: rgb(207, 203, 203);
+}
 
 .titulo{
-    background-color: rgb(7, 62, 134);
-    padding: 40px;
-    color: white;
+    text-align: center;
+    padding: 40px 0;
     text-decoration-style: dotted;
-    
 }
- 
+span {
+    color: rgb(19 34 53);
+}
+span:hover {
+    color: red;
+    transition: 0.3s;
+}
 
-.containet{
-    
+.containet, .containet1, .containet2,
+.containet3, .containet4,.containet5 {
     margin-left: 60px;
     margin-right: 50px;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding:10px;
     font-family: initial;
     text-align: left;
     
  
     border-style: inset;
-    border-color: blue;
-    
-    
+    border-color: rgb(19 34 53);
 
 }
+
+/* Iniciando interação animada*/
+    /* Colocando fonte e altura aceitável*/
+    .containet h2 span, .containet1 h2 span, .containet2 h2 span,
+    .containet3 h2 span, .containet4 h2 span, .containet5 h2 span{
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .containet p, .containet1 p, .containet2 p,
+    .containet3 p, .containet4 p, .containet5 p {
+        overflow: hidden;
+        height: 0;
+    }
+    /*  Expandindo o conteudo -- ver no JS*/
+    .mostrar, .mostrar1, .mostrar2,
+    .mostrar3, .mostrar4, .mostrar5 {
+        padding: 20px 50px;
+        height: 70px !important; /*  Ajuda no efeito*/
+    }
 
 .segunda-pergunta{
     border:1px solid black;
