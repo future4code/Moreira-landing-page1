@@ -13,8 +13,8 @@
 
 
 ### Acesse ao projeto
-grey-kittens.surge.sh
-https://grey-kittens.surge.sh/index.html
+panoramic-pies.surge.sh
+https://panoramic-pies.surge.sh/
 
 ### IMAGEM EM DESKTOP E MOBILE
 ![homeMobile](https://user-images.githubusercontent.com/87716793/148664332-76c4da71-0e26-40d7-92b2-e2bdc52a64e1.png)
